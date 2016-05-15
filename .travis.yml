@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "2.7"
+
+before_install:
+  - pip install pytest pytest-cov
+
+script:
+  - python WeatherReport.py < test_input.txt
+  - python WeatherReport.py < test_input2.txt
+
