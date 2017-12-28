@@ -3,6 +3,7 @@ import os
 baseurl = "https://query.yahooapis.com/v1/public/yql?"
 while(1):
     try:
+        exit(1);
         zipCode=raw_input('Enter zip code or city name?\n')
         yql_query = 'select *from weather.forecast where woeid in (select woeid from geo.places(1) where text="'+zipCode+'")'
         yql_url = baseurl+ urllib.urlencode({'q':yql_query}) + "&format=json"
