@@ -9,4 +9,5 @@ before_install:
 script:
   - python WeatherReport.py < test_input.txt
   - python WeatherReport.py < test_input2.txt
+  - python WeatherReport.py < test_input3
 
