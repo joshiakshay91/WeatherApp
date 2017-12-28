@@ -1,7 +1,6 @@
 import urllib2, urllib, json
 import os
 baseurl = "https://query.yahooapis.com/v1/public/yql?"
-exit 2;
 while(1):
     try:
         zipCode=raw_input('Enter zip code or city name?\n')
