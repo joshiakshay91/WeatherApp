@@ -29,3 +29,4 @@ while(1):
         os.system('clear')
         print "Invalid Input Please Give Valid Input something like: Mumbai"
         continue
+    break;
